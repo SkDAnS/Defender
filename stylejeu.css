@@ -1,0 +1,304 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../images/fond.jpg");
+    background-size: cover;
+}
+
+#control {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+#control a {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #ffb300;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 6px;
+    size: 20px;
+    background-color: #efcd24;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px #d40b0b;
+}
+
+#game {
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    background-color: black;
+    margin: 0 auto;
+    border: 1px solid white;
+    clear: both;
+}
+
+#lives {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 150px;
+}
+
+#lives2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 170px;
+}
+
+#player {
+
+
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    width: 181.81px;
+    height: 100px;
+
+}
+
+#alienpetit {
+    position: absolute;
+    left: 50px;
+    width: 80px;
+    height: 40px;
+    display: none;
+}
+
+#alienmoyen {
+    position: absolute;
+    left: 50px;
+    width: 180px;
+    height: 60px;
+    display: none;
+}
+
+#aliengrand {
+    position: absolute;
+    left: 50px;
+    width: 380px;
+    height: 175px;
+    display: none;
+}
+
+
+.missile {
+
+    height: 25px;
+    position: absolute;
+}
+
+.enemy {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+}
+
+#score {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#chrono {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.valeur {
+    font-size: 35px;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#START {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+
+}
+
+#start-button {
+
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+start-button:hover {
+    background-color: #3e8e41;
+}
+
+
+
+#manche1 {
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 280px;
+    font-family: 'Melted Monster', sans-serif;
+    color: orangered;
+
+}
+
+#gameOver {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 300px;
+    font-family: 'Melted Monster', sans-serif;
+    display: none;
+    font-size: 100px;
+    color: white;
+
+}
+
+#touche {
+    color: white;
+    position: relative;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 250px;
+}
+
+#fleche{
+    width: 150px;
+    height: 100px;
+    margin-left: -50px;
+}
+
+
+#point{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: -3px;
+
+}
+
+
+a {
+    display: block;
+    width: 100%;
+    margin: 50px auto;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #fff;
+
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 6px;
+    size: 20px;
+    background-color: #efcd24;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px #d40b0b;
+}
+
+.effet-3d {
+
+    
+    margin: 2rem auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo';
+    color: #ffb300;
+    font-size: calc(15vw / 5);
+    letter-spacing: .015em;
+    text-shadow: 0 0 0 #ab0404,
+        .0025em .0025em 0 #ab0404,
+        .005em .005em 0 #ab0404,
+        .0075em .0075em 0 #ab0404,
+        .01em .01em 0 #ab0404,
+        .0125em .0125em 0 #ab0404,
+        .015em .015em 0 #ab0404,
+        .0175em .0175em 0 #ab0404,
+        .02em .02em 0 #ab0404,
+        .0225em .0225em 0 #ab0404,
+        .025em .025em 0 #ab0404,
+        .0275em .0275em 0 #ab0404,
+        .03em .03em 0 #ab0404,
+        .0325em .0325em 0 #ab0404,
+        .035em .035em 0 #ab0404,
+        .0375em .0375em 0 #ab0404,
+        .04em .04em 0 #ab0404,
+        .0425em .0425em 0 #ab0404,
+        .045em .045em 0 #ab0404,
+        .0475em .0475em 0 #ab0404,
+        .05em .05em 0 #ab0404,
+        .0525em .0525em 0 #ab0404,
+        .055em .055em 0 #ab0404,
+        .0575em .0575em 0 #ab0404,
+        .06em .06em 0 #ab0404,
+        .0625em .0625em 0 #ab0404,
+        .065em .065em 0 #ab0404,
+        .0675em .0675em 0 #ab0404,
+        .07em .07em 0 #ab0404,
+        .0725em .0725em 0 #ab0404,
+        .075em .075em 0 #ab0404,
+        .0775em .0775em 0 #ab0404,
+        .08em .08em 0 #ab0404,
+        .0825em .0825em 0 #ab0404,
+        .085em .085em 0 #ab0404,
+        .0875em .0875em 0 #ab0404,
+        .09em .09em 0 #ab0404,
+        .0925em .0925em 0 #ab0404,
+        .095em .095em 0 #ab0404,
+        .0975em .0975em 0 #ab0404,
+        .1em .1em 0 #ab0404
+}
+
+
+
+

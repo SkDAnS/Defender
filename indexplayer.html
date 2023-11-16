@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styleplayer.css" />
+  <title>Defender</title>
+</head>
+
+<body>
+  
+  <div class="content">
+    <div class="choix">
+      <div class="menu active">
+        <div class="perso">
+          <div class="left"></div>
+          <div class="right">
+            <h1>Vaisseau (Joueur)</h1>
+          </div>
+        </div>
+        <div class="perso-bg">
+          <img src="../images/vaisseau.png" height="400px">
+        </div>
+      </div>
+
+      <div class="menu">
+        <div class="perso">
+          <div class="left"></div>
+          <div class="right">
+            <h1 >Alien 1  (150 points)</h1>
+          </div>
+        </div>
+        <div class="perso-bg">
+          <img src="../images/alien1.png" height="300px">
+        </div>
+      </div>
+
+      <div class="menu">
+        <div class="perso">
+          <div class="left"></div>
+          <div class="right">
+            <h1>Alien 2  (100 points)</h1>
+          </div>
+        </div>
+        <div class="perso-bg">
+          <img src="../images/alien2.png" height="300px">
+        </div>
+      </div>
+
+      
+
+        <div class="menu">
+          <div class="perso">
+            <div class="left"></div>
+            <div class="right">
+              <h1>Alien 3  (50 points)</h1>
+            </div>
+          </div>
+          <div class="perso-bg">
+            <img src="../images/alien3.png" height="500px">
+          </div>
+      </div>
+
+    </div>
+
+    
+
+
+    
+
+    
+    <div id="bouton">
+      <a href="index.html">Accueil</a>
+    </div>
+  </div>
+
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).on("click", ".menu", function () {
+      $(this).addClass("active").siblings().removeClass("active");
+    });
+  </script>
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,287 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1.5em;
+    color: #efcd24;
+    margin: 50px 55px 30px 35px;
+    text-align: center;
+}
+
+.presentation {
+
+    margin: 1em auto;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 700px;
+    height: 800px;
+    width: 1000px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/fond.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+img {
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin: 60px auto 0;
+}
+
+
+a {
+    display: block;
+    width: 20%;
+    margin: 50px auto;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #fff;
+
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 6px;
+    size: 20px;
+    background-color: #efcd24;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px #d40b0b;
+}
+
+a:hover {
+    box-shadow: 0 4px #980808;
+    top: 2px;
+}
+
+a:active {
+    box-shadow: 0 0 #980808;
+    top: 6px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.effet-3d {
+
+    
+    margin: 2rem auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo';
+    color: #ffb300;
+    font-size: calc(15vw / 5);
+    letter-spacing: .015em;
+    text-shadow: 0 0 0 #ab0404,
+        .0025em .0025em 0 #ab0404,
+        .005em .005em 0 #ab0404,
+        .0075em .0075em 0 #ab0404,
+        .01em .01em 0 #ab0404,
+        .0125em .0125em 0 #ab0404,
+        .015em .015em 0 #ab0404,
+        .0175em .0175em 0 #ab0404,
+        .02em .02em 0 #ab0404,
+        .0225em .0225em 0 #ab0404,
+        .025em .025em 0 #ab0404,
+        .0275em .0275em 0 #ab0404,
+        .03em .03em 0 #ab0404,
+        .0325em .0325em 0 #ab0404,
+        .035em .035em 0 #ab0404,
+        .0375em .0375em 0 #ab0404,
+        .04em .04em 0 #ab0404,
+        .0425em .0425em 0 #ab0404,
+        .045em .045em 0 #ab0404,
+        .0475em .0475em 0 #ab0404,
+        .05em .05em 0 #ab0404,
+        .0525em .0525em 0 #ab0404,
+        .055em .055em 0 #ab0404,
+        .0575em .0575em 0 #ab0404,
+        .06em .06em 0 #ab0404,
+        .0625em .0625em 0 #ab0404,
+        .065em .065em 0 #ab0404,
+        .0675em .0675em 0 #ab0404,
+        .07em .07em 0 #ab0404,
+        .0725em .0725em 0 #ab0404,
+        .075em .075em 0 #ab0404,
+        .0775em .0775em 0 #ab0404,
+        .08em .08em 0 #ab0404,
+        .0825em .0825em 0 #ab0404,
+        .085em .085em 0 #ab0404,
+        .0875em .0875em 0 #ab0404,
+        .09em .09em 0 #ab0404,
+        .0925em .0925em 0 #ab0404,
+        .095em .095em 0 #ab0404,
+        .0975em .0975em 0 #ab0404,
+        .1em .1em 0 #ab0404
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    /* Set default styles */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1.2em;
+    color: #efcd24;
+    margin: 50px 55px 30px 35px;
+    text-align: center;
+}
+
+.presentation {
+    margin: 1em auto;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 100%;
+    height: 800px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/fond.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+img {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto 0;
+}
+
+
+a {
+    display: block;
+    width: 20%;
+    margin: 50px auto;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 6px;
+    size: 20px;
+    background-color: #efcd24;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px #d40b0b;
+}
+
+a:hover {
+    box-shadow: 0 4px #980808;
+    top: 2px;
+}
+
+a:active {
+    box-shadow: 0 0 #980808;
+    top: 6px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.effet-3d {
+    margin: 2rem auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo';
+    color: #ffb300;
+    font-size: calc(15vw / 5);
+    letter-spacing: .015em;
+    text-shadow: 0 0 0 #ab0404,
+        .0025em .0025em 0 #ab0404,
+        .005em .005em 0 #ab0404,
+        .0075em .0075em 0 #ab0404,
+        .01em .01em 0 #ab0404,
+        .0125em .0125em 0 #ab0404,
+        .015em .015em 0 #ab0404,
+        .0175em .0175em 0 #ab0404,
+        .02em .02em 0 #ab0404,
+        .0225em .0225em 0 #ab0404,
+        .025em .025em 0 #ab0404,
+        .0275em .0275em 0 #ab0404,
+        .03em .03em 0 #ab0404,
+        .0325em .0325em 0 #ab0404,
+        .035em .035em 0 #ab0404,
+        .0375em .0375em 0 #ab0404,
+        .04em .04em 0 #ab0404,
+        .0425em .0425em 0 #ab0404,
+        .045em .045em 0 #ab0404,
+        .0475em .0475em 0 #ab0404,
+        .05em .05em 0 #ab0404,
+        .0525em .0525em 0 #ab0404,
+        .055em .055em 0 #ab0404,
+        .0575em .0575em 0 #ab0404,
+        .06em .06em 0 #ab0404,
+        .0625em .0625em 0 #ab0404,
+        .065em .065em 0 #ab0404,
+        .0675em .0675em 0 #ab0404,
+        .07em .07em 0 #ab0404,
+        .0725em .0725em 0 #ab0404,
+        .075em .075em 0 #ab0404,
+        .0775em .0775em 0 #ab0404,
+        .08em .08em 0 #ab0404,
+        .0825em .0825em 0 #ab0404,
+        .085em .085em 0 #ab0404,
+        .0875em .0875em 0 #ab0404,
+        .09em .09em 0 #ab0404,
+        .0925em .0925em 0 #ab0404,
+        .095em .095em 0 #ab0404,
+        .0975em .0975em 0 #ab0404,
+        .1em .1em 0 #ab0404
+}
+}
